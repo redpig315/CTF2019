@@ -25,6 +25,7 @@ if encode(flag) == correct:
 else:
     print 'wrong'
 '''
+---
 根据代码提示：编写decode代码如下：使用python3.7
 '''
 import base64
